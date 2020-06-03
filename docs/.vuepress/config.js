@@ -19,7 +19,8 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { href: 'https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;523;600;700;800&display=swap', rel: 'stylesheet', type: 'text/css' } ]
+    ['link', { href: 'https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;523;600;700;800&display=swap', rel: 'stylesheet', type: 'text/css' } ],
+    ['script', { src: 'https://code.iconify.design/1/1.0.6/iconify.min.js', type: 'text/javascript' } ]
   ],
 
   extraWatchFiles: ["**/*.md", "**/*.vue"],
@@ -53,6 +54,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'features',
             'getting-started',
             'user-interface',
             'dashboard',
@@ -60,7 +62,9 @@ module.exports = {
             'profile',
             'directory',
             'admin',
-            'settings'
+            'settings',
+            'policies',
+            'future-plans'
           ]
         }
       ]
