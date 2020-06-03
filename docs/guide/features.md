@@ -20,7 +20,7 @@ We tried our best to document the IPMS in detail. The documentation includes the
 
 ## Open-Source
 
-What is open-source? Simply put, they're free! The IPMS is built with [Laravel](https://laravel.com/) on the backend and [Quasar Framework](https://quasar.dev/) on the frontend. This extensively and greatly documented web development frameworks are easy-to-learn and easy-to-use. They're also constantly updated with security fixes and new features. Since they're open-source, they're also really popular in the development community and therefore, it is easy to find people to continue the project. You can also engage a team to work on it.
+What is open-source? Simply put, they're free! The IPMS is built with [Laravel](https://laravel.com/) on the backend and [Quasar Framework](https://quasar.dev/) on the frontend. These extensively and greatly documented web development frameworks are easy-to-learn and easy-to-use. They're also constantly updated with security fixes and new features. Since they're open-source, they're also really popular in the development community and therefore, it is easy to find people to continue the project. You can also engage a team to work on it.
 
 ## Lightweight
 
