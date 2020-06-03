@@ -23,4 +23,4 @@ jobs:
                   command: yarn build
             - run:
                   name: Firebase Deploy
-                  command: ln -s ./node_modules/.bin/firebase . && \./firebase deploy --token "$FIREBASE_TOKEN" --only hosting
+                  command: ln -s ./node_modules/.bin/firebase . && firebase deploy --token "$FIREBASE_TOKEN" --only hosting
