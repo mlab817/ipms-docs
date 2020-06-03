@@ -11,6 +11,8 @@ jobs:
           steps:
             - run: npm install
             - run: npm test
+    steps:
+      - checkout
       - firebase-deploy:
           steps:
             - run: firebase deploy --token "$FIREBASE_TOKEN" --only hosting
