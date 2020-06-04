@@ -39,6 +39,8 @@ Rather than hiding options not accessible to users, they are shown as disabled.
 
 ## Project Submission Flow
 
+The figure below show the general project submission flow. It starts with encoder [adding a project](#add-project). After adding a project, the encoder is expected to [update it](#update-project) and complete the required information. Once the required information is complete, they need to [finalize it](#finalize-project). Only finalized project can be [endorsed](#endorse-project). Once endorsed, the `reviewer` validates the endorsement (whether the project is included in the endorsement letter or not) and the completeness of information. If found compliant, the `reviewer` can review the project; otherwise, they will return it for compliance. After review is final, the `lead` will review if the review is okay and [accept it](#accept-project). Finally, the IPD Chief will [approve](#approve-project) the inclusion of the project in the system.  
+
 ![project submission flow](https://user-images.githubusercontent.com/29625844/83707848-97576080-a64d-11ea-90e8-31c98856bc30.png)
 
 ## Add Project
@@ -50,6 +52,20 @@ Add project feature is available to users with `ENCODER` role only.
 
 
 ## Update Project
+
+## Finalize Project
+
+## Endorse Project
+
+## Validate Project
+
+## Review Project
+
+## Accept Project
+
+## Approve Project
+
+# Miscellaneous Functions
 
 ## Transfer Project
 
