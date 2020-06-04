@@ -3,7 +3,7 @@ orbs:
   firebase-deploy: azdevs/firebase-deploy@1.0.0
 jobs:
   build:
-    working_directory: ˜/app
+    working_directory: ~/app
     docker:
       - image: 'circleci/node:lts'
     steps:
@@ -15,11 +15,12 @@ jobs:
           key: 'v1-yarn-{{ checksum "yarn.lock" }}'
           paths:
             - ./node_modules
+            - ~/app/tmp/workspace
       - run: yarn build
       - persist_to_workspace:
-          root: /tmp/workspace
+          root: tmp/workspace
           paths:
-            - dist
+            - docs/.vuepress/dist
             - firebase.json
             - .firebaserc
             - firestore.rules
@@ -29,7 +30,7 @@ jobs:
       - image: 'circleci/node:lts'
     steps:
       - attach_workspace:
-          at: /tmp/workspace
+          at: tmp/workspace
       - firebase-deploy/deploy:
           token: $FIREBASE_DEPLOY_TOKEN
 workflows:
