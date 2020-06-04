@@ -3,6 +3,7 @@ orbs:
   firebase-deploy: azdevs/firebase-deploy@1.0.0
 jobs:
   build:
+    working_directory: ˜/app
     docker:
       - image: 'circleci/node:lts'
     steps:
@@ -16,7 +17,7 @@ jobs:
             - ./node_modules
       - run: yarn build
       - persist_to_workspace:
-          root: /app/tmp/workspace
+          root: /tmp/workspace
           paths:
             - dist
             - firebase.json
@@ -28,7 +29,7 @@ jobs:
       - image: 'circleci/node:lts'
     steps:
       - attach_workspace:
-          at: /app/tmp/workspace
+          at: /tmp/workspace
       - firebase-deploy/deploy:
           token: $FIREBASE_DEPLOY_TOKEN
 workflows:
