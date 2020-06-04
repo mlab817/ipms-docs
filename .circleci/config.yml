@@ -18,14 +18,12 @@ jobs:
       - run: yarn build
       - persist_to_workspace:
           root: .
-          paths:
-            - node_modules
   deploy:
     docker:
       - image: 'circleci/node:lts'
     steps:
       - attach_workspace:
-          at: node_modules
+          at: .
       - firebase-deploy/deploy:
           token: $FIREBASE_DEPLOY_TOKEN
 workflows:
