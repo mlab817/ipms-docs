@@ -32,15 +32,23 @@ module.exports = {
    */
   themeConfig: {
     logo: '/app-logo-128x128.png',
-    repo: '',
-    editLinks: false,
-    docsDir: '',
-    editLinkText: '',
+    repo: 'mlab817/ipms-docs',
+    repoLabel: 'Contribute',
+    editLinks: true,
+    docsDir: 'docs',
+    docsRepo: 'mlab817/ipms-docs',
+    docsBranch: 'master',
     lastUpdated: 'Last Updated',
+    editLinkText: 'Edit this page on GitHub',
+    smoothScroll: true,
     nav: [
       {
         text: 'Guide',
         link: '/guide/',
+      },
+      {
+        text: 'App',
+        link: 'https://da-ipms2020.web.app',
       },
       {
         text: 'VuePress',
@@ -64,10 +72,12 @@ module.exports = {
             'admin',
             'settings',
             'policies',
-            'future-plans'
+            'future-plans',
+            'report-issues'
           ]
         }
-      ]
+      ],
+
     }
   },
 

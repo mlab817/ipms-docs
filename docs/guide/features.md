@@ -1,3 +1,14 @@
+---
+title: Features
+author: Lester Bolotaolo
+tags:
+  - features
+  - open source
+  - good documentation
+  - lightweight
+  - responsive
+---
+
 # Features
 
 [[TOC]]
