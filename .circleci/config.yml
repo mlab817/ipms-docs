@@ -5,7 +5,6 @@ jobs:
   build:
     docker:
       - image: 'circleci/node:lts'
-      - working_directory: ~/app
     steps:
       - checkout
       - restore_cache:
