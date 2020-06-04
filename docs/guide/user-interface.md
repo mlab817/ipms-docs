@@ -4,18 +4,7 @@
 
 ## Parts of the Interface
 
-
-
-- [Header/Navbar](#header)
-- [Tabs](#tabs)
-	- Dashboard
-	- Projects
-	- Directory
-	- Profile
-	- Users (Admin Only)
-- [Footer](#footer)
-	- Docs
-	- About
+[[TOC]]
 
 <a name="header"></a>
 ## Header/Navbar

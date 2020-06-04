@@ -13,3 +13,5 @@ features:
   details: Installable and can be used offline
 footer: Made by Mark Lester A. Bolotaolo with ❤️
 ---
+
+![home](https://user-images.githubusercontent.com/29625844/83712401-4731cb80-a658-11ea-8090-6871bd6acb81.png)

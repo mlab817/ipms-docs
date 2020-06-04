@@ -49,10 +49,6 @@ module.exports = {
       {
         text: 'App',
         link: 'https://da-ipms2020.web.app',
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
       }
     ],
     sidebar: {
