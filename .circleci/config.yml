@@ -15,22 +15,17 @@ jobs:
           key: 'v1-yarn-{{ checksum "yarn.lock" }}'
           paths:
             - ./node_modules
-            - ~/app/tmp/workspace
       - run: yarn build
       - persist_to_workspace:
-          root: tmp/workspace
+          root: .
           paths:
-            - docs/.vuepress/dist
-            - firebase.json
-            - .firebaserc
-            - firestore.rules
-            - firestore.indexes.json
+            - node_modules
   deploy:
     docker:
       - image: 'circleci/node:lts'
     steps:
       - attach_workspace:
-          at: tmp/workspace
+          at: node_modules
       - firebase-deploy/deploy:
           token: $FIREBASE_DEPLOY_TOKEN
 workflows:
