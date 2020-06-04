@@ -37,9 +37,13 @@ Rather than hiding options not accessible to users, they are shown as disabled.
 
 ![project menu](https://user-images.githubusercontent.com/29625844/83590177-b8ee1480-a587-11ea-8ea5-3cdcd6e6be7e.png)
 
+## Project Submission Flow
+
+![project submission flow](https://user-images.githubusercontent.com/29625844/83707848-97576080-a64d-11ea-90e8-31c98856bc30.png)
+
 ## Add Project
 
-Add project feature is available to users with `ENCODER` [role](/roles) only.
+Add project feature is available to users with `ENCODER` role only.
 
 ## View Project
 
