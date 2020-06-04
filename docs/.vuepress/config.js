@@ -60,6 +60,7 @@ module.exports = {
             '',
             'features',
             'getting-started',
+            'installation',
             'user-interface',
             'dashboard',
             'projects',
