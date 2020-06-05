@@ -71,6 +71,7 @@ module.exports = {
             'profile',
             'directory',
             'admin',
+            'roles',
             'settings',
             'policies',
             'future-plans',
