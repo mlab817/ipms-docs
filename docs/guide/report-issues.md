@@ -10,3 +10,6 @@ tags:
 
 # Report Issues
 
+We use Github to facilitate reporting of issues as well as request for features. There are two types of reports:
+
+1. 

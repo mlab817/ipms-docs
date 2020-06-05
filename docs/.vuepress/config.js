@@ -47,6 +47,10 @@ module.exports = {
         link: '/guide/',
       },
       {
+        text: 'API Reference',
+        link: '/api/'
+      },
+      {
         text: 'App',
         link: 'https://da-ipms2020.web.app',
       }
@@ -74,7 +78,20 @@ module.exports = {
           ]
         }
       ],
-
+      '/api/': [
+        {
+          title: 'API Guide',
+          collapsable: true,
+          children: [
+            '',
+            'authentication',
+            'profile',
+            'projects',
+            'directory',
+            'role'
+          ]
+        }
+      ]
     }
   },
 

@@ -27,11 +27,11 @@ This shows the list of projects accessible to the users. Note that currently, pr
 
 The project menu has five options:
 
-1. View - view more details of the project
-2. Update - update the details of the project
-3. Review - review the project
-4. Add - add projects to list for endorsement
-5. Delete - delete the project
+- View - view more details of the project
+- Update - update the details of the project
+- Review - review the project
+- Add - add projects to list for endorsement
+- Delete - delete the project
 
 Rather than hiding options not accessible to users, they are shown as disabled.
 
@@ -49,9 +49,13 @@ Add project feature is available to users with `ENCODER` role only.
 
 ## View Project
 
+You can view the details of the project from the list of projects by clicking on the dropdown and selecting `View Project`. Security on view project is not as strict as other functions. As long as you can view it in the list of projects, you can view its details.
 
+![View Project](https://user-images.githubusercontent.com/29625844/83824911-5bce9c00-a70a-11ea-8921-37cbb94b3ae9.png)
 
 ## Update Project
+
+This function is exclusive to users with the `Encoder` role and it can only be done to projects which were not finalized and/or were returned.
 
 ## Finalize Project
 

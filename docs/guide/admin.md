@@ -20,8 +20,6 @@ The admin page shows the list of users in the system and allows the superadmin a
 
 ![admin home](https://user-images.githubusercontent.com/29625844/83619872-0afe5c80-a5bf-11ea-9775-af1b3adc8e48.png)
 
-
-
 ## Assign Role
 
 To assign a role, click on the right button (<span class="iconify" data-icon="mdi:account" data-inline="false"></span>). An `Assign Role` dialog box will appear where you can select a role to user. Once done, click `Save`.
