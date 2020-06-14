@@ -12,3 +12,5 @@ yarn build
 For more details, please head VuePress's [documentation](https://v1.vuepress.vuejs.org/).
 
 # ipms-docs
+
+::: vue . ├── app │   ├── Exports │   │   ├── UsersExport.php │  └── composer.json :::
