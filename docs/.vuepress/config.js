@@ -9,7 +9,6 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
   description: description,
-  base: '/ipms-docs/',
   dest: 'public',
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -48,10 +47,6 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'API Reference',
-        link: '/api/'
-      },
-      {
         text: 'App',
         link: 'https://da-ipms2020.web.app',
       }
@@ -69,6 +64,7 @@ module.exports = {
             'user-interface',
             'dashboard',
             'projects',
+            'data-requirements',
             'profile',
             'directory',
             'admin',
@@ -77,20 +73,6 @@ module.exports = {
             'policies',
             'future-plans',
             'report-issues'
-          ]
-        }
-      ],
-      '/api/': [
-        {
-          title: 'API Guide',
-          collapsable: true,
-          children: [
-            '',
-            'authentication',
-            'profile',
-            'projects',
-            'directory',
-            'role'
           ]
         }
       ]
