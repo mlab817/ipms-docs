@@ -1,0 +1,1 @@
+export { default } from "C:\\Users\\DA\\Desktop\\ipms-project\\ipms-docs\\docs\\.vuepress\\enhanceApp.js"

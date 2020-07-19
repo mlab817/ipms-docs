@@ -1,0 +1,1 @@
+export { default } from "C:\\Users\\DA\\Desktop\\ipms-project\\ipms-docs\\node_modules\\vuepress-plugin-smooth-scroll\\lib\\enhanceApp.js"

@@ -74,6 +74,16 @@ module.exports = {
             'future-plans',
             'report-issues'
           ]
+        },
+        {
+          title: 'Projects',
+          collapsable: true,
+          children: [
+            'add-project',
+            'processing-status',
+            'project-menu',
+            'project-profile'
+          ]
         }
       ]
     }
