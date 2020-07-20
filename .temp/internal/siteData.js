@@ -45,6 +45,35 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Introduction",
+      "frontmatter": {
+        "title": "Introduction",
+        "author": "Lester Bolotaolo"
+      },
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-2d5f9df8",
+      "path": "/guide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Background and Rationale",
+          "slug": "background-and-rationale"
+        },
+        {
+          "level": 2,
+          "title": "Issues: What went wrong?",
+          "slug": "issues-what-went-wrong"
+        },
+        {
+          "level": 2,
+          "title": "Solution",
+          "slug": "solution"
+        }
+      ],
+      "lastUpdated": "6/22/2020, 8:34:46 PM"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -75,33 +104,20 @@ export const siteData = {
       "lastUpdated": "6/4/2020, 11:41:30 AM"
     },
     {
-      "title": "Introduction",
-      "frontmatter": {
-        "title": "Introduction",
-        "author": "Lester Bolotaolo"
-      },
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-2d5f9df8",
-      "path": "/guide/",
+      "title": "Add Project",
+      "frontmatter": {},
+      "regularPath": "/guide/add-project.html",
+      "relativePath": "guide/add-project.md",
+      "key": "v-9f00de06",
+      "path": "/guide/add-project.html",
       "headers": [
         {
           "level": 2,
-          "title": "Background and Rationale",
-          "slug": "background-and-rationale"
-        },
-        {
-          "level": 2,
-          "title": "Issues: What went wrong?",
-          "slug": "issues-what-went-wrong"
-        },
-        {
-          "level": 2,
-          "title": "Solution",
-          "slug": "solution"
+          "title": "Add Project Form",
+          "slug": "add-project-form"
         }
       ],
-      "lastUpdated": "6/22/2020, 8:34:46 PM"
+      "lastUpdated": "7/19/2020, 10:10:36 PM"
     },
     {
       "title": "Admin Page",
@@ -164,6 +180,15 @@ export const siteData = {
       "lastUpdated": "6/4/2020, 11:41:30 AM"
     },
     {
+      "title": "Directory",
+      "frontmatter": {},
+      "regularPath": "/guide/directory.html",
+      "relativePath": "guide/directory.md",
+      "key": "v-f41fe206",
+      "path": "/guide/directory.html",
+      "lastUpdated": "6/3/2020, 6:31:31 PM"
+    },
+    {
       "title": "Data Requirements",
       "frontmatter": {
         "title": "Data Requirements"
@@ -172,16 +197,34 @@ export const siteData = {
       "relativePath": "guide/data-requirements.md",
       "key": "v-79caa286",
       "path": "/guide/data-requirements.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Basic Information",
+          "slug": "basic-information"
+        },
+        {
+          "level": 2,
+          "title": "Technical Readiness",
+          "slug": "technical-readiness"
+        },
+        {
+          "level": 2,
+          "title": "Financial Information",
+          "slug": "financial-information"
+        },
+        {
+          "level": 2,
+          "title": "Investment Requirements",
+          "slug": "investment-requirements"
+        },
+        {
+          "level": 2,
+          "title": "PAP Status",
+          "slug": "pap-status"
+        }
+      ],
       "lastUpdated": "6/23/2020, 5:50:50 PM"
-    },
-    {
-      "title": "Directory",
-      "frontmatter": {},
-      "regularPath": "/guide/directory.html",
-      "relativePath": "guide/directory.md",
-      "key": "v-f41fe206",
-      "path": "/guide/directory.html",
-      "lastUpdated": "6/3/2020, 6:31:31 PM"
     },
     {
       "title": "Features",
@@ -300,8 +343,8 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "Creating a new account",
-          "slug": "creating-a-new-account"
+          "title": "Getting an Account",
+          "slug": "getting-an-account"
         },
         {
           "level": 2,
@@ -339,7 +382,7 @@ export const siteData = {
           "slug": "next-steps"
         }
       ],
-      "lastUpdated": "6/4/2020, 8:51:10 AM"
+      "lastUpdated": "7/19/2020, 10:10:36 PM"
     },
     {
       "title": "Installation",
@@ -412,6 +455,17 @@ export const siteData = {
       "lastUpdated": "6/5/2020, 1:52:09 PM"
     },
     {
+      "title": "Understanding Processing Status",
+      "frontmatter": {
+        "title": "Understanding Processing Status"
+      },
+      "regularPath": "/guide/processing-status.html",
+      "relativePath": "guide/processing-status.md",
+      "key": "v-91151b46",
+      "path": "/guide/processing-status.html",
+      "lastUpdated": "7/19/2020, 10:10:36 PM"
+    },
+    {
       "title": "Profile",
       "frontmatter": {},
       "regularPath": "/guide/profile.html",
@@ -428,14 +482,59 @@ export const siteData = {
           "level": 2,
           "title": "Upload/Change Avatar",
           "slug": "upload-change-avatar"
-        },
-        {
-          "level": 2,
-          "title": "Changing Password",
-          "slug": "changing-password"
         }
       ],
       "lastUpdated": "6/3/2020, 9:36:57 AM"
+    },
+    {
+      "title": "Project Profile",
+      "frontmatter": {},
+      "regularPath": "/guide/project-profile.html",
+      "relativePath": "guide/project-profile.md",
+      "key": "v-410e3bfd",
+      "path": "/guide/project-profile.html",
+      "lastUpdated": "7/19/2020, 10:10:36 PM"
+    },
+    {
+      "title": "Project Menu",
+      "frontmatter": {},
+      "regularPath": "/guide/project-menu.html",
+      "relativePath": "guide/project-menu.md",
+      "key": "v-5d407a5d",
+      "path": "/guide/project-menu.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "View Project",
+          "slug": "view-project"
+        },
+        {
+          "level": 2,
+          "title": "Update Project",
+          "slug": "update-project"
+        },
+        {
+          "level": 2,
+          "title": "Transfer Project",
+          "slug": "transfer-project"
+        },
+        {
+          "level": 2,
+          "title": "Share Project",
+          "slug": "share-project"
+        },
+        {
+          "level": 2,
+          "title": "Delete Project",
+          "slug": "delete-project"
+        },
+        {
+          "level": 2,
+          "title": "Download Project",
+          "slug": "download-project"
+        }
+      ],
+      "lastUpdated": "7/19/2020, 10:10:36 PM"
     },
     {
       "title": "Project Manager",
@@ -651,13 +750,18 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "Header/Navbar",
-          "slug": "header-navbar"
+          "title": "The User Interface",
+          "slug": "the-user-interface"
         },
         {
           "level": 2,
-          "title": "Tabs",
-          "slug": "tabs"
+          "title": "Header",
+          "slug": "header"
+        },
+        {
+          "level": 2,
+          "title": "Sidebar",
+          "slug": "sidebar"
         },
         {
           "level": 2,
@@ -665,28 +769,7 @@ export const siteData = {
           "slug": "footer"
         }
       ],
-      "lastUpdated": "6/4/2020, 11:41:30 AM"
-    },
-    {
-      "title": "Using Vue in Markdown",
-      "frontmatter": {},
-      "regularPath": "/guide/using-vue.html",
-      "relativePath": "guide/using-vue.md",
-      "key": "v-2e53de06",
-      "path": "/guide/using-vue.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Browser API Access Restrictions",
-          "slug": "browser-api-access-restrictions"
-        },
-        {
-          "level": 2,
-          "title": "Hecking",
-          "slug": "hecking"
-        }
-      ],
-      "lastUpdated": "6/2/2020, 5:23:11 PM"
+      "lastUpdated": "7/19/2020, 10:10:36 PM"
     }
   ],
   "themeConfig": {
@@ -722,16 +805,29 @@ export const siteData = {
             "installation",
             "user-interface",
             "dashboard",
-            "projects",
-            "data-requirements",
             "profile",
-            "directory",
-            "admin",
             "roles",
             "settings",
             "policies",
-            "future-plans",
             "report-issues"
+          ]
+        },
+        {
+          "title": "Projects",
+          "collapsable": true,
+          "children": [
+            "add-project",
+            "processing-status",
+            "project-menu",
+            "project-profile",
+            "data-requirements"
+          ]
+        },
+        {
+          "title": "Ways Forward",
+          "collapsable": true,
+          "children": [
+            "future-plans"
           ]
         }
       ]

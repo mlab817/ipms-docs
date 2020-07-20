@@ -20,13 +20,13 @@ The dashboard provides a snapshot of the activities in the System. It contains s
 
 The summary shows information on the number of owned projects, active notifications, and messages. 
 
-***Note: Messages is currently not implemented so this is currently a placeholder.***
+> Note: Messages is currently not implemented so this is currently a placeholder.***
 
 ## Shortcuts
 
 The shortcuts contain links to various parts of the application. 
 
-***Note: I might want to make this dynamic and add it to the Settings Page but will probably limit it to 6.***
+> Note: I might want to make this dynamic and add it to the Settings Page but will probably limit it to 6.***
 
 ## Activity Feed
 

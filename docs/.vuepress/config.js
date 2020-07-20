@@ -5,6 +5,8 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'Investment Programming & Management System',
+
+  host: 'localhost',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -63,15 +65,10 @@ module.exports = {
             'installation',
             'user-interface',
             'dashboard',
-            'projects',
-            'data-requirements',
             'profile',
-            'directory',
-            'admin',
             'roles',
             'settings',
             'policies',
-            'future-plans',
             'report-issues'
           ]
         },
@@ -82,7 +79,15 @@ module.exports = {
             'add-project',
             'processing-status',
             'project-menu',
-            'project-profile'
+            'project-profile',
+            'data-requirements'
+          ]
+        },
+        {
+          title: 'Ways Forward',
+          collapsable: true,
+          children: [
+            'future-plans'
           ]
         }
       ]

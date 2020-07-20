@@ -9,7 +9,3 @@
 ## Upload/Change Avatar
 
 ![upload_avatar](https://user-images.githubusercontent.com/29625844/83498001-e2f2f880-a4ed-11ea-983a-0cba5c8ca5e9.png)
-
-## Changing Password
-
-To change your password, you must provide your current password and your new password (which has to be confirmed). Note that passwords are case-sensitive, i.e. `PASSWORD` is not the same as `password`. Upon successfully changing your password, you will be logged out of the app and will need to login again.
