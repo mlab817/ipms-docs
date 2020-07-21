@@ -80,7 +80,8 @@ module.exports = {
             'processing-status',
             'project-menu',
             'project-profile',
-            'data-requirements'
+            'data-requirements',
+            'download-projects'
           ]
         },
         {
