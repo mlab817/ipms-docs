@@ -85,6 +85,15 @@ module.exports = {
           ]
         },
         {
+          title: 'Admin',
+          collapsable: true,
+          children: [
+            'admin-login',
+            'operating-units',
+            'users'
+          ]
+        },
+        {
           title: 'Ways Forward',
           collapsable: true,
           children: [
